@@ -1,0 +1,2 @@
+La carpeta Projecte_PONG2 te una mida que m'ha donat alguns conflictes amb algunes pantalles per que el vaig fer en les pantalles de clase que són d'un tamany 
+considerable, si hi ha algun conflicte he fet el mateix PONG pero en una mida reduïda.

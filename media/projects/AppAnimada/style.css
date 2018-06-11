@@ -1,0 +1,504 @@
+body{
+    
+    overflow-x:hidden;
+    overflow-y: hidden;
+    
+}
+
+#credits{
+    
+    top:100;
+    left:200;
+    width: 500;
+    position: fixed;
+    visibility: hidden;
+    animation: credits 10s infinite;
+    
+}
+
+#fons{
+    
+    position: fixed;
+    top:0;
+    left:0;
+    width:1024;
+    height:768;
+    z-index:-5;
+    
+}
+
+#inventari{
+    
+    display:inline-block;
+    height: 130px;
+    width: 550px;
+
+}
+
+
+.ingradientsP{
+    
+    z-index: 1;
+    border-radius: 15px;
+    font-family: sans-serif;
+    position: fixed;
+    width: auto;
+    height: auto;
+    margin: 25 25 25 25;
+    padding: 10 10 10 10;
+    border-style: dashed;
+    border-color: orangered;
+    background-color: orange;
+
+}
+
+
+.ingredient{
+    
+    width: 75px;
+    height: 75px;
+    
+
+}
+
+.ingredient:hover{
+    
+    transform:scale(1.2);
+    
+}
+
+#informacio div {
+    
+    visibility: hidden;
+    
+}
+
+
+#bol {
+    
+    position:fixed;
+    width: 250px;
+    height: 200px;
+    top: 500px;
+    left: 500px;
+    
+}
+
+#bolXoc {
+   
+    position:fixed;
+    width: 250px;
+    height: 200px;
+    top: 500px;
+    left: 500px;
+    visibility: hidden; 
+}
+
+
+#FonsForn{
+    
+    position: fixed;
+    top: 200px;
+    left: 175px;
+    width: 300px;
+    height: 200px;
+    background-color: dimgrey;
+    z-index: -6;
+    
+}
+
+#FonsForn1{
+    
+    position: fixed;
+    top: 200px;
+    left: 175px;
+    width: 300px;
+    height: 200px;
+    background-color: dimgrey;
+    z-index: -7;
+    
+}
+
+#fornA{
+    
+    top: 200px;
+    left: 450px;
+    
+}
+
+#pastis {
+   
+    position:fixed;
+    width: 200px;
+    height: 100px;
+    top: 270px;
+    left: 230px;
+    visibility: hidden;
+    
+}
+
+#pastisP{
+    
+    top:350;
+    left:500;
+    
+}
+
+#cascaras {
+    
+    visibility: hidden;
+    position:fixed;
+    width: 150px;
+    height: 150px;
+    top: 570px;
+    left: 675px;
+        
+}
+
+
+.button {
+    
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 30px;
+    height: 25px;
+    float: right;
+}
+
+
+
+#ousX {
+    
+    display:inline-block;
+    width: 75px;
+    height: 75px;  
+    margin-right: 25px;
+    margin-left: 25px;
+}
+#ousP {
+    
+    top: -300;
+    left: -300;
+    width: 500px;
+    
+}
+
+
+
+#sucreX {
+    
+    display:inline-block;
+    width: 75px;
+    height: 75px;
+    margin-right: 25px;
+
+}
+#sucreP {
+    
+    top: -300px;
+    left: 200px;
+    width: 500px;
+
+}
+
+
+
+#farinaX{
+    
+    display:inline-block;
+    width: 75px;
+    height: 75px;
+    margin-right: 25px;
+}
+#farinaP{
+    
+    top: 1000px;
+    left: 200px;
+    width: 500px;
+    
+}
+
+
+
+#lletX {
+    
+    display:inline-block;
+    width: 75px;
+    height: 75px;  
+    margin-right: 25px;
+}
+#lletP{
+
+   top: 1000px;
+   left: -300px;
+   width: 500px; 
+}
+
+
+
+
+#xocolataX {
+    
+    display:inline-block;
+    width: 75px;
+    height: 75px;  
+    margin-right: 25px;
+}
+
+#xocolataP{
+    
+    top: -500px;
+    left: 1000px;
+    width: 500px;
+
+}
+
+@keyframes credits {
+    
+    0% {transform: rotate(2deg) scale(1);}
+    25% {transform: rotate(-2deg);}
+    50% {transform: rotate(2deg) scale(1.1);}
+    75% {transform: rotate(-2deg);}
+    100% {transform: rotate(2deg) scale(1);}
+}
+
+
+@keyframes ingradients {
+    
+    0% {transform: rotate(2deg) scale(1);}
+    25% {transform: rotate(-2deg);}
+    50% {transform: rotate(2deg) scale(1.1);}
+    75% {transform: rotate(-2deg);}
+    100% {transform: rotate(2deg) scale(1);}
+}
+
+
+@keyframes ousX {
+    
+    50% {transform:translateX(410px); animation-timing-function: linear;}
+    55% {opacity: 1;} 
+    100% {transform:translateX(525px); animation-timing-function: linear; opacity: 0;} 
+}
+
+@keyframes ousY {
+    
+     55% {opacity: 1;}
+    100% {transform:translateY(520px);animation-timing-function: linear; opacity: 0; } 
+}
+
+
+@keyframes ousP {
+     
+     0% {transform: translate(-100px);}
+     100% {transform:translateY(500px) translateX(500px);}
+}
+
+
+@keyframes ousE{
+     
+     50% {transform: translate(-200px) scale(1.20);}
+     100% {transform:translateX(1000px) scale(0.5);}
+}
+
+
+
+
+
+@keyframes sucreX {
+    
+    50% {transform:translateX(590px); animation-timing-function: linear;}
+    55% {opacity: 1;} 
+    100% {transform:translateX(500px); animation-timing-function: linear; opacity: 0; } 
+}
+
+@keyframes sucreY {
+    
+     55% {opacity: 1;}
+    100% {transform:translateY(520px);animation-timing-function: linear; opacity: 0; } 
+}
+
+
+@keyframes sucreP {
+    
+    0% {transform: translate(1px);}
+    100% {transform:translateY(500px) translateX(-100px);} 
+}
+
+@keyframes sucreE{
+     
+     50% {transform: translateY(-200px) scale(1.20);}
+     100% {transform:translateY(1000px) scale(0.5);}
+}
+
+
+
+
+@keyframes farinaX {
+    
+    50% {transform:translateX(319px); animation-timing-function: linear;}
+    55% {opacity: 1;}
+    100% {transform:translateX(320px); animation-timing-function: linear; opacity: 0;} 
+}
+
+@keyframes farinaY {
+            
+    55% {opacity: 1;}
+    100% {transform:translateY(510px);animation-timing-function: linear; opacity: 0;} 
+}
+
+
+@keyframes farinaP {
+    
+    0% {transform: translate(1px);}
+    100% {transform:translateY(-800px) translateX(-100px);} 
+}
+
+@keyframes farinaE{
+     
+     50% {transform: translateY(200px) scale(1.20);}
+     100% {transform:translateY(-1000px) scale(0.5);}
+}
+
+
+
+
+@keyframes lletX {
+    
+    50% {transform:translateX(150px); animation-timing-function: linear;}
+    55% {opacity: 1;}
+    100% {transform:translateX(280px); animation-timing-function: linear; opacity: 0;} 
+}
+
+@keyframes lletY {
+            
+    55% {opacity: 1;}
+    100% {transform:translateY(510px);animation-timing-function: linear; opacity: 0;} 
+}
+
+@keyframes lletP {
+            
+    0% {transform: translate(1px);}
+    100% {transform: translateY(-800px) translateX(500px);} 
+}
+
+@keyframes lletE{
+     
+     50% {transform: translateY(200px) translateX(-200px) scale(1.20);}
+     100% {transform: translateY(-1000px) translateX(1000px) scale(0.5);}
+}
+
+
+
+
+@keyframes xocolataX {
+    
+    30% {transform:translateX(-30px); animation-timing-function: linear;}
+    55% {opacity: 1;}
+    100% {transform:translateX(90px); animation-timing-function: linear; opacity: 0;} 
+}
+
+@keyframes xocolataY {
+            
+    55% {opacity: 1;}
+    100% {transform:translateY(510px);animation-timing-function: linear; opacity: 0;} 
+}
+
+@keyframes xocolataP {
+            
+    0% {transform: translate(1px);}
+    100% {transform: translateY(700px) translateX(-800px);} 
+}
+
+@keyframes xocolataE{
+     
+     50% {transform: translateY(-200px) translateX(200px) scale(1.20);}
+     100% {transform: translateY(1000px) translateX(-1000px) scale(0.5);}
+}
+
+
+@keyframes fletxa {
+        
+    0% {transform: scale(1)}
+    50% {transform: scale(1.30)}
+    100% {transform: scale(1)}
+    
+}
+
+
+@keyframes fornXoc {
+
+    0% {;}
+    50% {opacity:1;}
+   100% {transform: translateX(-275px) translateY(-275px) scale(0.5); opacity:0; } 
+    
+}
+
+@keyframes fornF {
+    
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+    
+}
+
+@keyframes fornE {
+    
+    0% {;}
+    30% {transform: scale(1.2);}
+    100% {transform: scale(0.01);}
+    
+}
+
+@keyframes pastis{
+    
+    0% {opacity:0; transform: scale(0.5);}
+   100% {transform: translateX(275px) translateY(275px) scale(1); opacity:1; } 
+    
+}
+
+@keyframes pastisA{
+    
+    0% {transform: scale(0.01);;}
+    100% {transform: scale(1);}   
+    
+}
+
+@keyframes bolS {
+    
+    
+    50% {transform: scale(1.5)}
+    100% {transform: scale(1)}
+
+}
+
+@keyframes bolF {
+    
+    
+    50% {transform: scale(1.5)}
+    100% {transform: scale(1)}
+
+}
+
+@keyframes bolL {
+    
+    
+    50% {transform: scale(1.5)}
+    100% {transform: scale(1)}
+
+}
+
+@keyframes bolX {
+    
+    
+    50% {transform: scale(1.5)}
+    100% {transform: scale(1)}
+
+}
+
+@keyframes cascarasE {
+    
+    
+    20% {transform: scale(1.5)}
+    100% {transform: scale(0)}
+
+}

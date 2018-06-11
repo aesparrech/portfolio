@@ -1,0 +1,96 @@
+body{
+    
+    background-color: coral;
+}
+
+.dolcos{
+    
+    position: fixed;
+    width: 100;    
+}
+
+#mag1 {
+    
+    top: 0px;
+    left: -300px;
+    animation: magdalena1 25s infinite;
+    
+}
+
+#mag2 {
+    
+    top: 600px;
+    left: 1300px;
+    animation: magdalena2 17s infinite;
+    
+}
+
+#mag3 {
+    
+    top: 800px;
+    left: 900px;
+    animation: magdalena3 30s infinite;
+    
+}
+
+
+#titulo {
+
+    position: fixed;
+    top: 15px;
+    left: 300px;
+    width: 350px;
+    animation: titulo 10s infinite;
+    z-index: 1;
+}
+
+#cooking{
+    
+    position: fixed;
+    top: 230px;
+    left: 200px;
+    width: 600px;
+    animation: cooking 20s infinite;
+    z-index: 1;
+}
+
+@keyframes titulo {
+    
+    0% {transform: rotate(2deg) scale(1);}
+    25% {transform: rotate(-2deg);}
+    50% {transform: rotate(2deg) scale(1.1);}
+    75% {transform: rotate(-2deg);}
+    100% {transform: rotate(2deg) scale(1);}
+}
+
+@keyframes cooking {
+    
+    0% {transform: rotate(-12deg);}
+    25% {transform: rotate(24deg);}
+    50% {transform: rotate(-12deg);}
+    75% {transform: rotate(24deg);}
+    100% {transform: rotate(-12deg);}
+}
+
+@keyframes magdalena1{
+    
+    25% {transform: translateX(1400px) translateY(300px) rotate(80deg);}
+    45% {transform: translateX(700px) translateY(800px) rotate(-60deg);}
+    100% {transform: translateX(-700px) translateY(-800px) rotate(120deg);} 
+    
+}
+
+@keyframes magdalena2{
+    
+    25% {transform: translateX(-900px) translateY(-800px) rotate(-90deg);}
+    45% {transform: translateX(-1000px) translateY(500px) rotate(70deg);}
+    100% {transform: translateX(300px) translateY(-500px) rotate(-180deg);} 
+    
+}
+
+@keyframes magdalena3{
+    
+    25% {transform: translateX(-900px) translateY(-1000px) rotate(-90deg);}
+    100% {transform: translateX(700px) translateY(1000px) rotate(-180deg);} 
+    
+}
