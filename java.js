@@ -47,7 +47,7 @@ selimg.onclick = function(){
     paintimg=1;
     images.style.visibility= "visible";
     selimg.style.backgroundColor= "lightslategray";
-    DivImg.style.visibility="visible"
+    DivImg.style.visibility="visible";
 }
 
 selvid.onclick = function(){
