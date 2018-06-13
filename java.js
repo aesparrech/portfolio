@@ -2,6 +2,10 @@ var cv = document.getElementById ("CV");
 var fletxa = document.getElementById ("fletxa");
 var fletxaO = document.getElementById ("fletxaO");
 
+var DivImg = document.getElementById ("DivImg");
+var DivVid = document.getElementById ("DivVid");
+var DivPro = document.getElementById ("DivPro");
+
 var selimg = document.getElementById ("selimg");
 var selvid = document.getElementById ("selvid");
 var selpro = document.getElementById ("selpro");
@@ -43,7 +47,7 @@ selimg.onclick = function(){
     paintimg=1;
     images.style.visibility= "visible";
     selimg.style.backgroundColor= "lightslategray";
-    
+    DivImg.style.visibility="visible"
 }
 
 selvid.onclick = function(){
@@ -52,7 +56,7 @@ selvid.onclick = function(){
     paintvid=1;
     videos.style.visibility= "visible";
     selvid.style.backgroundColor= "lightslategray";
-    
+    DivVid.style.visibility="visible";
 }
 
 selpro.onclick = function(){
@@ -61,7 +65,7 @@ selpro.onclick = function(){
     paintpro=1;
     projects.style.visibility= "visible";
     selpro.style.backgroundColor= "lightslategray";
-    
+    DivPro.style.visibility="visible";
 }
 
 selimg.onmouseover = function(){
@@ -103,6 +107,9 @@ selpro.onmouseout = function(){
 amagar = function(){
     
     canvi();
+    DivImg.style.visibility="hidden";
+    DivVid.style.visibility="hidden";
+    DivPro.style.visibility="hidden";
     projects.style.visibility= "hidden";
     videos.style.visibility= "hidden";
     images.style.visibility= "hidden";
