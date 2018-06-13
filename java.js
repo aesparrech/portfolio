@@ -1,3 +1,7 @@
+var cv = document.getElementById ("CV");
+var fletxa = document.getElementById ("fletxa");
+var fletxaO = document.getElementById ("fletxaO");
+
 var selimg = document.getElementById ("selimg");
 var selvid = document.getElementById ("selvid");
 var selpro = document.getElementById ("selpro");
@@ -15,6 +19,23 @@ var cuina = document.getElementById ("cuina");
 var paintimg;
 var paintvid;
 var paintpro;
+
+
+fletxa.onclick = function(){
+    
+    fletxa.style.visibility="hidden";
+    fletxaO.style.visibility="visible";
+    CV.style.visibility="visible";
+    
+}
+
+fletxaO.onclick = function(){
+    
+    fletxa.style.visibility="visible";
+    fletxaO.style.visibility="hidden";
+    CV.style.visibility="hidden"; 
+    
+}
 
 selimg.onclick = function(){
     

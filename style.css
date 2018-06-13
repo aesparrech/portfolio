@@ -17,6 +17,46 @@ h2 {
     font-size: 30px; 
 }
 
+#fletxa{
+    
+    position: absolute;
+    width:25px;
+    left: 1150px;
+    top:230px;
+    
+}
+
+#fletxaO{
+    
+    position: absolute;
+    visibility: hidden;
+    width:25px;
+    left: 1150px;
+    top:230px;
+    
+}
+
+
+#CV{
+    
+    visibility: hidden;
+    position: absolute;
+    background-color: lightgray;
+    width: 850px;
+    height: 1100px;
+    z-index: 10;
+    left: 350px;
+    top:270
+}
+
+#CV img{
+    
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 800px;
+    
+}
+
 #subtitol {
     
     position: absolute;
