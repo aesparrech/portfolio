@@ -1,0 +1,475 @@
+h1 {
+    
+    position:absolute;
+    top:150px;
+    left:370px;
+    font-family: 'Allerta Stencil';
+    font-size: 60px;
+    
+}
+
+h2 {
+    
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    font-family: 'Aldrich';
+    font-size: 30px; 
+}
+
+#fletxa{
+    
+    position: absolute;
+    width:25px;
+    left: 1150px;
+    top:230px;
+    
+}
+
+#fletxaO{
+    
+    position: absolute;
+    visibility: hidden;
+    width:25px;
+    left: 1150px;
+    top:230px;
+    
+}
+
+
+#CV{
+    
+    visibility: hidden;
+    position: absolute;
+    background-color: lightgray;
+    width: 850px;
+    height: 1100px;
+    z-index: 10;
+    left: 350px;
+    top:270
+}
+
+#CV img{
+    
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 800px;
+    
+}
+
+#subtitol {
+    
+    position: absolute;
+    top : 200px;
+    left : 370px;
+    font-size: 50px;
+    margin-left: 0px;
+    
+}
+
+hr {
+    
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 5px; 
+    border-color: black;
+    
+}
+
+body {
+    
+    background-image: url(media/images/Drawing/Pinzells.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+/* Seleccionadors Pestanyes */
+#menu{
+    
+    z-index: 5;
+    
+}
+
+.selecionadors{
+    
+    position: absolute;
+    top:900px;
+    height: 50px;
+    width:500px;      
+}
+
+.selecionadors p{
+
+    margin-left: 220px;
+    font-family: 'Aldrich';
+    
+}
+
+#selimg{
+    
+    left:200px;
+    background-color: lightgray;
+    
+    
+}
+
+#selvid{
+
+    left:700px;
+    background-color: lightgray;
+    
+}
+
+#selpro{
+    
+    left:1200px;
+    background-color:lightgray;
+    
+}
+
+#selimg:hover{
+    
+    background-color: lightslategray;
+      
+}
+
+#selvid:hover{
+
+    background-color: lightslategray;
+    
+}
+
+#selpro:hover{
+    
+    background-color:lightslategray;
+    
+}
+
+
+
+
+.contenidor{
+    
+    position: absolute;
+    top:950px;
+    left:200px;
+    height: 12300px;
+    width: 1500px;   
+}
+
+
+#DivImg{
+    
+    background-color:lightgray;
+    opacity: 0.5;
+    z-index: -5;
+    position: absolute;
+    top:950px;
+    left:200px;
+    height: 12300px;
+    width: 1500px;
+    
+}
+
+#DivVid{
+    
+    background-color:lightgray;
+    opacity: 0.5;
+    z-index: -5;
+    position: absolute;
+    top:950px;
+    left:200px;
+    height: 3200px;
+    width: 1500px;
+    visibility: hidden;
+}
+
+#DivPro{
+    
+    background-color:lightgray;
+    opacity: 0.5;
+    z-index: -5;
+    position: absolute;
+    top:950px;
+    left:200px;
+    height: 1500px;
+    width: 1500px;
+    visibility: hidden;
+}
+
+#images img{
+    
+    width: 600px;
+    margin-left: 100px;
+    margin-top:70px;
+    
+}
+
+#images img:hover{
+    
+   transform: scale(1.1);
+
+}
+
+/*Il·luminació*/
+
+#light{
+   
+    display: inline-block;
+        
+}
+
+#light img{
+   
+    width: 700px;
+        
+}
+
+#light1{
+    
+    margin-left: 10px;
+    width:600px;
+    height: 600px;
+    display: inline-block;
+    
+}
+
+#light1 img{
+    
+    margin-left: 0px;
+    margin-top:70px;
+    background-color: red;
+    width:560px;
+    
+}
+
+#light2{
+    
+    margin-right: 0px;
+    margin-left: 100px;
+    width:400px;
+    height: 600px;
+    display: inline-block;
+
+}
+
+#light2 img{
+    
+    margin-left: 0px;
+    margin-top:70px;
+    background-color: red;
+    width:475px;
+    
+}
+
+#light3{
+   
+    display: inline-block;
+        
+}
+
+#light3 img{
+   
+    width: 780px;
+        
+}
+
+/*AnimacioPoses*/
+
+#poses img{
+    
+    width: 1300px;
+    
+}
+
+
+/*2Di3D Texture*/
+
+#texture{
+    
+    display: inline-block;
+    
+}
+
+#texture img{
+    
+    width: 625px;
+    
+}
+
+#texture1{
+    
+    margin-top:70px;
+    margin-right: 0px;
+    margin-left: 100px;
+    width: 400px;
+    height: 900px;
+    display: inline-block;  
+    
+}
+
+#texture1 img{
+    
+    margin-left: 0px;
+    margin-top:70px;
+    background-color: red;
+    width:475px;
+    
+}
+
+
+/*Design*/
+#design{
+    
+    margin-left: 200px;
+    
+}
+
+#design img{
+    
+    margin-top: 150px;
+    width: 900px;
+    
+    
+}
+
+/*Drawing*/
+
+#drawing{
+    
+    display: inline;
+    margin-left:20px;
+    
+}
+
+#drawing img{
+    
+    width: 670px;
+    margin-left:0px;
+    
+}
+
+#drawing2{
+    
+    display: inline;
+
+}
+
+#drawing2 img{
+    
+    width: 680px;
+    
+}
+
+#drawing3{
+    
+    display: inline;
+}
+
+#drawing3 img{
+    
+    margin-left: 10px;
+}
+
+/*Sprites*/
+
+#sprites img{
+    
+   width: 1300px; 
+    
+}
+
+#videos{
+
+    visibility: hidden;
+}
+
+#videos video {
+    
+    width: 800px;
+    margin-left: 350px;
+    margin-top: 100px;
+    
+}
+
+
+
+#projects{
+    
+    visibility: hidden;
+}
+
+#cuina{
+    
+    width: 520px;
+    margin-left: 100px;
+    margin-top:30px;
+}
+
+#audio{
+    
+    width: 750px;
+    margin-left: 10px;
+    margin-top:30px;
+    
+}
+
+#cuina:hover {
+    
+    transform: scale(1.05);
+    
+}
+
+#audio:hover {
+    
+    transform: scale(1.05);
+    
+}
+
+#pong{
+    
+    width: 780px;
+    margin-left: 100px;
+    margin-top:30px;
+    
+}
+
+#invaders{
+    
+    width: 490px;
+    margin-left: 10px;
+    margin-top:30px; 
+    
+}
+
+#programacio{
+    
+    font-family: 'Aldrich';
+    margin-top: 30px;
+    margin-left: 130px;
+    
+}
+
+#programacio a{
+    
+    text-decoration: none;
+    
+}
+
+#scrollup {
+    
+    visibility: hidden;
+    position:fixed;
+    top:875px;
+    left: 1800px;
+    width: 50px;
+    
+}
+
+#scrollup:hover {
+    
+    transform: scale(1.2);
+    
+}
