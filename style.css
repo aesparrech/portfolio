@@ -17,6 +17,16 @@ h2 {
     font-size: 30px; 
 }
 
+#subtitol {
+    
+    position: absolute;
+    top : 200px;
+    left : 370px;
+    font-size: 50px;
+    margin-left: 0px;
+    
+}
+
 hr {
     
     margin-left: 70px;
@@ -36,6 +46,12 @@ body {
 }
 
 /* Seleccionadors Pestanyes */
+#menu{
+    
+    z-index: 5;
+    
+}
+
 .selecionadors{
     
     position: absolute;
@@ -323,14 +339,26 @@ body {
     
     width: 520px;
     margin-left: 100px;
-    margin-top:70px;
+    margin-top:30px;
 }
 
 #audio{
     
     width: 750px;
     margin-left: 10px;
-    margin-top:70px;
+    margin-top:30px;
+    
+}
+
+#cuina:hover {
+    
+    transform: scale(1.05);
+    
+}
+
+#audio:hover {
+    
+    transform: scale(1.05);
     
 }
 
@@ -338,7 +366,7 @@ body {
     
     width: 780px;
     margin-left: 100px;
-    margin-top:70px;
+    margin-top:30px;
     
 }
 
@@ -346,7 +374,7 @@ body {
     
     width: 490px;
     margin-left: 10px;
-    margin-top:70px; 
+    margin-top:30px; 
     
 }
 
@@ -366,6 +394,7 @@ body {
 
 #scrollup {
     
+    visibility: hidden;
     position:fixed;
     top:900px;
     left: 1800px;
